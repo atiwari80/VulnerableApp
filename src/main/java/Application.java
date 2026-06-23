@@ -1,0 +1,3 @@
+public class Application {
+    // Removed compromised password for security reasons
+    // ... rest of the application code ...

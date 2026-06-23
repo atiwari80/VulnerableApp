@@ -1,9 +1,9 @@
-// ErrorBasedSQLInjectionVulnerability.java modified to prevent SQL injection by using a PreparedStatement.
+// Database.java modified to prevent SQL injection by using a PreparedStatement.
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
-public class ErrorBasedSQLInjectionVulnerability {
+public class Database {
     // ...
     public void query(String userInput) {
         String query = "SELECT * FROM table WHERE column = ?";
