@@ -1,1 +1,1 @@
-cipher = Cipher.getInstance("AES/GCM/NoPadding")
+ChangeCipher.getInstance("AES/GCM/NoPadding")
