@@ -1,1 +1,1 @@
-ChangeCipher.getInstance("AES/GCM/NoPadding")
+	if (cipher instanceof javax.crypto.Cipher)			cipher = Cipher.getInstance("AES/GCM/NoPadding");
